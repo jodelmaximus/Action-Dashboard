@@ -1,0 +1,41 @@
+<div class="bg-image" 
+     style="background: url('/assets/images/loginbackground.png/');
+            height: 100vh;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;">
+    <div class="logo"> <img src="/assets/images/logo.png" class="img-fluid"  alt="Italian Trulli" style="display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 2%;
+        width: 200px;">
+    </div>
+    <div class="desc">
+    <h2>Batangas State University</h2>
+    <h3>The National Engineering University</h3>
+    <h3>BatStateU <span id="red-text">ACTION</span> Center</h3>
+    <h3>Online Dashboard and Companion App</h3>
+    </div>
+    <div class="card card1">
+        <div class="card card2">
+            <div class="logoaction"> <img src="/assets/images/actioncenterlogo.png" class="img-fluid"  alt="Italian Trulli" style="display: block;
+                margin-left: 4%;
+                margin-right: auto;
+                padding-top: 2%;
+                padding-bottom: 2%;
+                width: 100px;">
+            </div>
+        </div>
+        <div class="card-body login-text">
+        LOGIN
+        </div>
+        <div class="container-fluid form1">
+            <form action="/action_page.php">
+                  <input type="email" class="form-control form-control-sm" placeholder="Email" id="email">
+                  <input type="password" class="form-control form-control-sm pass" placeholder="Password" id="pwd">
+                <button type="submit" class="btn btn-primary loginbutton" (click)="router.navigate(['/home']);">LOGIN</button>
+              </form>
+        </div>
+      </div>
+</div>
+

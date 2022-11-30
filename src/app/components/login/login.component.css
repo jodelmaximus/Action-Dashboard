@@ -1,0 +1,48 @@
+.desc{
+    text-align:center;
+}
+.card1{
+    margin-left:15%;
+    margin-right:15%;
+}
+.card2{
+    background-color: #B20100;
+    margin-top:5%;
+    margin-left:7%;
+    margin-right:7%;
+}
+
+.loginbutton{
+    text-align: center;
+    display: block;
+    margin-top: 3%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:5%;
+}
+
+.pass{
+    margin-top:1%;
+}
+.card-body{
+
+    display: block;
+    margin-left:10%;
+}
+
+.container-fluid{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.btn-primary{
+    background-color: #B20100;
+    border-color: #B20100;
+}
+
+.login-text{
+    color: #B20100;
+}
+#red-text{
+    color: #B20100;
+}
